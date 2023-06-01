@@ -20,6 +20,6 @@ jobs:
         script: |
           cd ~/project/auth-api/
           git pull origin master
-          npm install
-          npm run migrate up
-          pm2 restart authapi:4000
+          /home/alfyandoo/.nvm/versions/node/v16.20.0/bin/npm install
+          /home/alfyandoo/.nvm/versions/node/v16.20.0/bin/npm run migrate up
+          /home/alfyandoo/.nvm/versions/node/v16.20.0/bin/pm2 restart authapi:4000
